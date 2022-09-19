@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 500px;
+}
+
+#errors{
+    color: coral;
+}
+
+#board{
+    height: 450px;
+    width: 450px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver
+}
+#digits{
+    width: 450px;
+    height: 50px;
+
+    background-color: ghostwhite;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.number{
+    width: 44px;
+    height: 44px;
+    border: 1px solid darkblue;
+    margin: 2px;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected{
+    background-color : grey;
+}
+
+.start-tile{
+    background-color: lightgray;
+}
+
+.horz-line{
+    border-bottom: 1px solid black;
+
+}
+
+.vert-line{
+    border-right: 1px solid black;
+}
+
